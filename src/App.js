@@ -1,4 +1,6 @@
 import React from 'react';
+import logo from './logo.svg';
+
 function App() {
   return (
     <div>
@@ -7,6 +9,7 @@ function App() {
           Hello!
         </p>
       </header>
+      <img src={logo} alt="meeps"></img>
     </div>
   );
 }
